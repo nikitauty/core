@@ -1,0 +1,39 @@
+{
+  "name": "@nikitau/prettier",
+  "description": "prettier configs",
+  "license": "MIT",
+  "version": "1.1.0",
+  "keywords": [
+    "prettier"
+  ],
+  "author": {
+    "name": "Nikita Utyugov",
+    "url": "https://github.com/nikitauty"
+  },
+  "bugs": {
+    "url": "https://github.com/nikitauty/core/issues"
+  },
+  "homepage": "https://github.com/nikitauty/core",
+  "repository": {
+    "url": "https://github.com/nikitauty/core"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    ".prettierrc.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"*.js\""
+  },
+  "lint-staged": {
+    "*.js": "prettier --write"
+  },
+  "peerDependencies": {
+    "prettier": "^3.3.2"
+  },
+  "dependencies": {
+    "prettier": "^3.3.2"
+  }
+}

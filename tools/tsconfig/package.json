@@ -1,0 +1,30 @@
+{
+	"name": "@nikitau/tsconfig",
+	"description": "typescript config",
+	"license": "MIT",
+	"version": "1.0.1",
+	"keywords": [
+		"typescript",
+		"tsconfig"
+	],
+	"author": {
+		"name": "Nikita Utyugov",
+		"url": "https://github.com/nikitauty"
+	},
+	"bugs": {
+		"url": "https://github.com/nikitauty/core/issues"
+	},
+	"homepage": "https://github.com/nikitauty/core",
+	"repository": {
+		"url": "https://github.com/nikitauty/core"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"tsconfig.react.json"
+	],
+	"peerDependencies": {
+		"typescript": "^4.9.5 || ^5.0.0"
+	}
+}
