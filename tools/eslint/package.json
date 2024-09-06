@@ -1,8 +1,9 @@
 {
 	"name": "@nikitau/eslint",
+	"type": "module",
 	"description": "eslint configs",
 	"license": "MIT",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"keywords": [
 		"eslint",
 		"react",
@@ -25,9 +26,9 @@
 	"main": "index.js",
 	"types": "index.d.ts",
 	"files": [
-    "index.d.ts",
-    "index.js"
-  ],
+		"index.d.ts",
+		"index.js"
+	],
 	"scripts": {
 		"format": "prettier --write \"*.js\""
 	},
