@@ -190,6 +190,7 @@ build/Release
 # Optional npm cache directory
 .npm
 
+
 # Optional REPL history
 .node_repl_history
 .next
@@ -197,6 +198,7 @@ build/Release
 # Yarn
 .yarn/
 .yarnrc
+yarn.lock
 
 # Playwright test output
 **/playwright/test-results
