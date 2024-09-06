@@ -3,7 +3,7 @@
 	"type": "module",
 	"description": "eslint configs",
 	"license": "MIT",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"keywords": [
 		"eslint",
 		"react",
@@ -55,7 +55,8 @@
 		"eslint-plugin-react": "^7.35.0",
 		"eslint-plugin-react-hooks": "^4.6.2",
 		"eslint-plugin-react-refresh": "^0.4.9",
-		"eslint-plugin-simple-import-sort": "^12.1.1"
+		"eslint-plugin-simple-import-sort": "^12.1.1",
+		"@typescript-eslint/eslint-plugin": "*"
 	},
 	"devDependencies": {
 		"@nikitau/prettier": "*"
